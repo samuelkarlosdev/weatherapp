@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weatherapp/app/modules/home/home_page.dart';
+import 'package:weatherapp/app/modules/home/pages/weather_page.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
@@ -13,7 +13,7 @@ class AppWidget extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const Homepage(),
+      home: const WeatherPage(),
     );
   }
 }
